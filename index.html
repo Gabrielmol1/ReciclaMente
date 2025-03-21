@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reciclamente</title>
+</head>
+
+<body>
+    <header>
+        <h1>Jogo da Memória - Sustentabilidade</h1>
+        <h3>Coleta Seletiva</h3>
+        <p>A conservação do meio ambiente depende diretamente da conscientização e da mudança de hábitos das
+            pessoas, o que é possível através da educação ambiental. Pensando nisso, elaboramos um jogo
+            divertido que contribui para a formação de pessoas conscientes e comprometidas com o meio ambiente e sua
+            preservação. A proposta busca facilitar a memorização das cores usadas nas lixeiras da coleta seletiva e
+            os tipos de resíduos descartados em cada lixeira.</p>
+        <h3>Instruções do Jogo</h3>
+        <p>Tente relacionar os resíduo com a cor de lixeira correta segundo sua origem (papel, metal, plástico,
+            vidro, orgânico e não-reciclável).</p>
+        <div id="timer">00:00</div>
+        <button id="resetButton" style="display: none;">Reset</button>
+    </header>
+    <main>
+        <div class="memory-game">
+            <div class="card" data-card="metal">
+                <img class="card-front" src="./img/iconmetal.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="metal">
+                <img class="card-front" src="./img/metal.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="naoreciclavel">
+                <img class="card-front" src="./img/iconnaoreciclavel.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="naoreciclavel">
+                <img class="card-front" src="./img/naoreciclavel.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="organico">
+                <img class="card-front" src="./img/iconorganico.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="organico">
+                <img class="card-front" src="./img/organico.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="papel">
+                <img class="card-front" src="./img/iconpapel.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="papel">
+                <img class="card-front" src="./img/papel.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="plastico">
+                <img class="card-front" src="./img/iconplastico.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="plastico">
+                <img class="card-front" src="./img/plastico.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="vidro">
+                <img class="card-front" src="./img/iconvidro.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+            <div class="card" data-card="vidro">
+                <img class="card-front" src="./img/vidro.png" alt="Face da carta">
+                <img class="card-back" src="./img/fundoreciclagem.png" alt="Verso da carta">
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
